@@ -14,5 +14,6 @@ menu {
    padding: 10px; /* Поля вокруг текста */ 
  }
 li {
+    display: inline;
     background: #ff0080; /* Цвет фона блока */
 }
