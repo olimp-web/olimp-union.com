@@ -2,23 +2,136 @@ body {
     margin: 0; /* Убираем отступы */
    }
  h1 {
-   background: #000080; /* Цвет фона блока */ 
-   color: #ffe; /* Цвет текста */ 
-   margin: 0; /* Нулевые отступы вокруг текста */ 
-   padding: 10px; /* Поля вокруг текста */ 
+   text-align: center;
  }
+
+ h2 {
+   text-align: center;
+ }
+
+ p {
+  text-align: justify;
+ }
+
 menu {
-   background: #000070; /* Цвет фона блока */ 
-   color: #ffe; /* Цвет текста */ 
-   margin: 0; /* Нулевые отступы вокруг текста */ 
-   padding: 10px; /* Поля вокруг текста */ 
+  z-index: 2;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, .3);
+  padding: 0px;
+  top:0px;
+  position: fixed;
+   width: 100%;
+   background: #ffffff; /* Цвет фона блока */
+   color: #000070; /* Цвет текста */
+   margin: 0; /* Нулевые отступы вокруг текста */
+   padding: 10px; /* Поля вокруг текста */
  }
+
+ ul {
+  margin: auto;
+  padding: 0px;
+  text-align: center;
+
+ }
+
 li {
+  margin: auto;
+  padding: 20px;
     display: inline;
-    background: #ff00f0; /* Цвет фона блока */
 }
 main {
+  position: relative;
     width: 1000px;
     margin: auto;
-    height: 2000px;
+    background: #ffff55;
+    z-index: 1;
+}
+
+img {
+  margin: 0px;
+   width: 100%;
+   height: auto;
+   width: auto\9; /* ie8 */
+}
+
+.left {
+  float:left;
+  width: 50%;
+}
+
+.right {
+  float: right;
+  width: 50%;
+}
+
+.left-text {
+  margin-right: 5%;
+}
+
+.right-text {
+  margin-left: 5%;
+}
+
+h3 {
+  text-align: center;
+}
+
+section {
+  overflow: hidden;
+}
+
+.princip {
+  float: left;
+  width: 24%;
+  margin: 0.5%;
+  height: auto;
+}
+
+.circle {
+  border: 3px solid;
+  width: calc(24% - 6px);
+  padding-bottom: calc(24% - 6px);
+  margin: 0.5%;
+  float: left;
+  border-radius: 50%;
+}
+
+.container__wrapper {
+    overflow: hidden;
+    position: relative;
+    width: 22%;
+    padding-bottom: 22%; // пропорции блока определяются здесь
+    padding:  0.5%;
+    float: left;
+
+}
+
+.container__content {
+    border-radius: 50%;
+    border: 3px solid;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: calc(100% - 6px);
+    height: calc(100% - 6px);
+}
+
+ul li:nth-child(1) div {
+  border-color: #ff4411;
+}
+
+ul li:nth-child(2) div {
+  border-color: #ffaa11;
+}
+
+ul li:nth-child(3) div {
+  border-color: #554411;
+}
+
+ul li:nth-child(4) div {
+  border-color: #5544ff;
+}
+
+.achiev-content {
+  top:40%;
+  left: 20%;
 }
