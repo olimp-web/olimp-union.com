@@ -3,5 +3,6 @@ body{
 }
 
 menu {
+  margin: 0px; 
   background-color: #dddddd;
 }
