@@ -1,8 +1,9 @@
-body{
- margin: 0px; 
-}
-
-menu {
-  margin: 0px; 
-  background-color: #dddddd;
-}
+body {
+    margin: 0; /* Убираем отступы */
+   }
+ h1 {
+   background: #000080; /* Цвет фона блока */ 
+   color: #ffe; /* Цвет текста */ 
+   margin: 0; /* Нулевые отступы вокруг текста */ 
+   padding: 10px; /* Поля вокруг текста */ 
+ }
