@@ -17,3 +17,8 @@ li {
     display: inline;
     background: #ff00f0; /* Цвет фона блока */
 }
+main {
+    width: 1000px;
+    margin: auto;
+    height: 2000px;
+}
