@@ -1,19 +1,38 @@
+
+ @font-face {
+     font-family: ALSS;
+     src: url(../font/ALSSchlangesans-Bold.otf) format("opentype");
+     font-weight: bold;
+   }
+
+
 body {
     margin: 0; /* Убираем отступы */
+    font-family: calibri, sans-serif; /*основной шрифт*/
    }
+
  h1 {
    text-align: center;
+   font-family: ALSS, tahoma, sans-serif;
+   color:#3913A7;
  }
 
  h2 {
    text-align: center;
+   padding-top: 30px;
+   font-family: ALSS, tahoma, sans-serif;
+   color:#3913A7;
+   font-size: 160%;
  }
 
  p {
   text-align: justify;
+  font-size: 120%;
+  color: #000000;
  }
 
 menu {
+
   z-index: 2;
   box-shadow: 0 2px 6px rgba(0, 0, 0, .3);
   padding: 0px;
@@ -21,29 +40,53 @@ menu {
   position: fixed;
    width: 100%;
    background: #ffffff; /* Цвет фона блока */
-   color: #000070; /* Цвет текста */
    margin: 0; /* Нулевые отступы вокруг текста */
-   padding: 10px; /* Поля вокруг текста */
+   padding: 5px; /* Поля вокруг текста */
+   padding-bottom: 7px;
+   text-align: center;
+   font-size: 120%;
+
  }
 
  ul {
   margin: auto;
   padding: 0px;
-  text-align: center;
+  list-style-type: none;
 
  }
 
-li {
+menu li {
   margin: auto;
-  padding: 20px;
-    display: inline;
+  display: inline;
+  color: red;
 }
+
+a{ /*ссылки в меню*/
+  vertical-align: middle;
+  transition: 0.5s; /* Время изменения */
+  text-decoration: none;
+  color: #1c74bf;
+  padding-left: 55px;
+
+}
+
+a:hover {
+  color:#3913A7;
+}
+
+menu ul li:first-child a{ /*Первый путкт меню (ОЛИМП)*/
+  font-family: ALSS, tahoma, sans-serif;
+  color:#3913A7;
+  font-size: 150%;
+  padding-left: 0px;
+}
+
 main {
   position: relative;
     width: 1000px;
     margin: auto;
-    background: #ffff55;
     z-index: 1;
+    margin-top: 40px;
 }
 
 img {
@@ -51,6 +94,12 @@ img {
    width: 100%;
    height: auto;
    width: auto\9; /* ie8 */
+}
+
+#concept li {
+  list-style-image: url(../img/circle.png);
+  /*list-style: disc;
+  color: #3913A7;*/
 }
 
 .left {
@@ -67,12 +116,18 @@ img {
   margin-right: 5%;
 }
 
+.left-text li {
+  margin-left: 20px;
+}
+
 .right-text {
   margin-left: 5%;
 }
 
 h3 {
   text-align: center;
+  font-family: ALSS, tahoma, sans-serif;
+  color:#3913A7;
 }
 
 section {
@@ -86,52 +141,55 @@ section {
   height: auto;
 }
 
-.circle {
-  border: 3px solid;
-  width: calc(24% - 6px);
-  padding-bottom: calc(24% - 6px);
+figcaption{
+  text-align: center;
+  font-family: ALSS, tahoma, sans-serif;
+  color:#3913A7;
+  font-size: 120%;
+}
+
+
+.achievements div {
+  width: 24%;
   margin: 0.5%;
   float: left;
-  border-radius: 50%;
 }
 
-.container__wrapper {
-    overflow: hidden;
-    position: relative;
-    width: 22%;
-    padding-bottom: 22%; // пропорции блока определяются здесь
-    padding:  0.5%;
-    float: left;
 
+.Max-and-Kirill{
+  width: 37%;
+  float: left;
 }
 
-.container__content {
-    border-radius: 50%;
-    border: 3px solid;
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: calc(100% - 6px);
-    height: calc(100% - 6px);
+.contact-left{
+  width: 612px;
+  float: left;
 }
 
-ul li:nth-child(1) div {
-  border-color: #ff4411;
+.contact-map{
+  border: 1px solid #aaa;
+  padding: 5px;
 }
 
-ul li:nth-child(2) div {
-  border-color: #ffaa11;
+.material-icons, .icon-text, .vk-icon, .vk-icon-text {
+      vertical-align: middle;
+    }
+.vk-icon{
+  width: 30px;
+  margin-right: 10px;
 }
 
-ul li:nth-child(3) div {
-  border-color: #554411;
+.vk {
+  text-align: center;
+  background: #5b7aa8;
+  padding: 0px 15px;
+  display: inline-block;
+  margin-left: 300px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  border-radius: 10px;
+  color: white;
 }
 
-ul li:nth-child(4) div {
-  border-color: #5544ff;
-}
-
-.achiev-content {
-  top:40%;
-  left: 20%;
+.vk-icon-text{
 }
