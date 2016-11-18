@@ -19,10 +19,13 @@ body {
 
  h2 {
    text-align: center;
-   padding-top: 30px;
+
    font-family: ALSS, tahoma, sans-serif;
    color:#3913A7;
    font-size: 160%;
+   width: 200px;
+   margin: auto;
+   margin-top: 60px;
  }
 
  p {
@@ -65,9 +68,12 @@ a{ /*ссылки в меню*/
   vertical-align: middle;
   transition: 0.5s; /* Время изменения */
   text-decoration: none;
-  color: #1c74bf;
-  padding-left: 55px;
+  color: #3D79AD;
 
+}
+
+menu a {
+  padding-left: 55px;
 }
 
 a:hover {
@@ -157,13 +163,7 @@ figcaption{
 
 
 .Max-and-Kirill{
-  width: 37%;
-  float: left;
-}
-
-.contact-left{
-  width: 612px;
-  float: left;
+  width: 100%;
 }
 
 .contact-map{
@@ -171,9 +171,32 @@ figcaption{
   padding: 5px;
 }
 
-.material-icons, .icon-text, .vk-icon, .vk-icon-text {
+.material-icons, .icon-text, .vk-icon, .vk-icon-text, .icon {
       vertical-align: middle;
     }
+
+.icon{
+  height: 30px;
+  width: auto;
+  margin-right: 10px;
+  margin-left: 20px;
+  }
+
+  .icon-text {
+    margin-bottom: 10px;
+  }
+
+  .person a{
+    display: inline-block;
+  }
+
+  .person h3{
+    display: inline-block;
+    text-align: left;
+    padding-left: 20px;
+  }
+
+
 .vk-icon{
   width: 30px;
   margin-right: 10px;
@@ -192,4 +215,31 @@ figcaption{
 }
 
 .vk-icon-text{
+}
+
+.separate-left, .separate-right{
+  margin-top: 65px;
+  height: 20px;
+  width: auto;
+  float: left;
+}
+
+.separate-right {
+  float: right;
+  margin-left: 20px;
+  margin-right: 0px;
+}
+
+.photo {
+  width: 250px;
+  height: auto;
+  float: left;
+}
+
+.person {
+  width: 50%;
+  float: left;
+  padding-top: 60px;
+  padding-bottom: 60px;
+
 }
