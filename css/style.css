@@ -243,3 +243,7 @@ figcaption{
   padding-bottom: 60px;
 
 }
+
+#structure > img{
+  margin-top: 20px;
+}
