@@ -155,11 +155,7 @@ figcaption{
 }
 
 
-.achievements div {
-  width: 24%;
-  margin: 0.5%;
-  float: left;
-}
+
 
 
 .Max-and-Kirill{
@@ -196,26 +192,40 @@ figcaption{
     padding-left: 20px;
   }
 
+/*Кнопка вконтакте///////////////////////////*/
+
+.vk {
+  display: table;
+  text-align: center;
+  width: 100%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.vk table-cell{
+  font-family: ALSS, tahoma, sans-serif;
+
+  color:#3913A7;
+  font-size: 180%;
+  display: table-cell;
+  text-align: center;
+}
+
+.vk a{
+  text-align: center;
+  display: inline;
+  background: #5b7aa8;
+  padding: 10px;
+  border-radius: 10px;
+  color: white;
+  font-size: 120%;
+}
 
 .vk-icon{
   width: 30px;
   margin-right: 10px;
 }
 
-.vk {
-  text-align: center;
-  background: #5b7aa8;
-  padding: 0px 15px;
-  display: inline-block;
-  margin-left: 300px;
-  margin-top: 40px;
-  margin-bottom: 40px;
-  border-radius: 10px;
-  color: white;
-}
-
-.vk-icon-text{
-}
 
 .separate-left, .separate-right{
   margin-top: 65px;
@@ -246,4 +256,61 @@ figcaption{
 
 #structure > img{
   margin-top: 20px;
+}
+/*Статистика////////////////////////////////////*/
+.achievements li {
+  overflow: hidden;
+  position: relative;
+  width: 24%;
+  padding-bottom: 24%; // пропорции блока определяются здесь
+  display: block;
+  float: left;
+  margin: 0.5%;
+  margin-top: 50px;
+}
+
+.circle{
+  position: absolute;
+    top: 0;
+    left: 0;
+    width: calc(100% - 6px);
+    height: calc(100% - 6px);
+    border-radius: 50%;
+}
+
+.table {
+  display: table;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  margin-top: -10px;
+}
+
+.table p {
+  font-family: ALSS, tahoma, sans-serif;
+  color:#3913A7;
+  font-size: 180%;
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+
+}
+.table p b {
+  font-size: 250%;
+}
+
+.achievements li:nth-child(1) .circle {
+    border: 3px solid #3913A7;
+}
+
+.achievements li:nth-child(2) .circle {
+    border: 3px solid #02CC02;
+}
+
+.achievements li:nth-child(3) .circle {
+    border: 3px solid #FFD300;
+}
+
+.achievements li:nth-child(4) .circle {
+    border: 3px solid #EB1313;
 }
