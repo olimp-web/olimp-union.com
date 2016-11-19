@@ -278,7 +278,7 @@ figcaption{
     border-radius: 50%;
 }
 
-.table {
+.achievements .table {
   display: table;
   text-align: center;
   width: 100%;
@@ -286,7 +286,7 @@ figcaption{
   margin-top: -10px;
 }
 
-.table p {
+.achievements .table p {
   font-family: ALSS, tahoma, sans-serif;
   color:#3913A7;
   font-size: 180%;
@@ -295,7 +295,7 @@ figcaption{
   text-align: center;
 
 }
-.table p b {
+.achievements .table p b {
   font-size: 250%;
 }
 
@@ -313,4 +313,13 @@ figcaption{
 
 .achievements li:nth-child(4) .circle {
     border: 3px solid #EB1313;
+}
+
+/*Выравнивание текста концепта по центру//////////////*/
+#concept .c1 .left {
+  margin-top: 100px;
+}
+
+#concept .c2 .right {
+  margin-top: 50px;
 }
