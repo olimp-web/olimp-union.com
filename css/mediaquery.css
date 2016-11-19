@@ -43,4 +43,20 @@
     margin-bottom: 60px;
   }
 
+  .c1 .c2 .c3 {
+    width: 100%;
+  }
+  figcaption{
+    font-size: 80%;
+  }
+  .achievements .table p {
+    font-size: 100%;
+  }
+  .achievements .table p b {
+    font-size: 150%;
+  }
+
+
+
+
 }
