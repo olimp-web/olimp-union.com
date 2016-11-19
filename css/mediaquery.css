@@ -3,7 +3,46 @@
 }
 
 @media screen and (max-width: 640px) {/*резиновые блоки*/
-  h2 {
-    background-color: green;
+  main {
+    width: 100%;
   }
+  p, h1, h2{
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  h2 {
+    background-color: #e4eaff;
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  menu a {
+    padding-left: 10px;
+  }
+  a{
+    font-size: 12px;
+  }
+  menu ul li:first-child a{
+    font-size: 16px;
+  }
+
+  .separate-left, .separate-right{
+    background-image: none;
+    width: 0px;
+    height: 0px;
+  }
+  .left, .right {
+    width: 100%;
+    float: none;
+  }
+  .right-text, .left-text {
+    margin: 0px;
+  }
+
+  #concept .c1 .left, #concept .c2 .right {
+    margin-top: -20px;
+    margin-bottom: 60px;
+  }
+
 }
