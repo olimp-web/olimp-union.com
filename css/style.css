@@ -1,4 +1,8 @@
 
+@viewport {
+  width: device-width;
+}
+
  @font-face {
      font-family: ALSS;
      src: url(../font/ALSSchlangesans-Bold.otf) format("opentype");

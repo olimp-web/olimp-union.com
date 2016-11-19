@@ -1,6 +1,4 @@
-@viewport {
-  width: device-width;
-}
+
 
 @media screen and (max-width: 640px) {/*резиновые блоки*/
   main {
