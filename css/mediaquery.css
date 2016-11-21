@@ -31,7 +31,6 @@
   menu ul li:nth-child(7) a {
     margin-right: 4px;
     padding-right: 6px;
-    color: red;
   }
 
 
@@ -103,22 +102,27 @@
   float: none;
   padding-top: 10px;
   padding-bottom: 10px;
+  text-align: center;
 
 }
 .photo {
   width: 96%;
   padding: 3%;
   float: none;
+  max-width: 300px;
 }
+
+.person ul {
+  width: 220px;
+  text-align: left;
+  padding-left: 50px;
+}
+
 .person h3{
   width: 100%;
   text-align: center;
 }
 
-.person a{
-  margin-left: 20px;
-  width: 100%;
-}
 .vk a{
   padding: 10px;
   font-size: 90%;
