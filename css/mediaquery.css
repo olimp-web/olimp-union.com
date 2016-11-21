@@ -10,7 +10,7 @@
   }
 
   p {
-    font-size: 100%;
+    font-size: 80%;
   }
 
   h2 {
@@ -51,31 +51,74 @@
     width: 100%;
   }
   figcaption{
-    font-size: 80%;
-  }
-  .achievements .table p {
-    font-size: 80%;
-    padding: 0px;
-  }
-  .achievements .table p b {
-    font-size: 150%;
+    font-size: 100%;
   }
 
   .princip {
-    width: calc(25% - 5px);
-  }
-
-  .achievements li {
-    width: calc(25% - 20px);
-    padding-bottom: calc(25% - 20px); // пропорции блока определяются здесь
-    margin: 0.5%;
-    margin-top: 20px;
-  }
-
-  #circle1{
-    margin-left: 6%;
+    width: calc(50% - 10px);
   }
 
 
+.see-full-image::after {
+    content: "Открыть изображение в новом окне";
+}
 
+.see-full-image {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    font-family: ALSS, tahoma, sans-serif;
+    color:#3913A7;
+}
+/*Статистика////////////////////////////////////*/
+.achievements li {
+  width: calc(45% - 15px);
+  padding-bottom: calc(45% - 15px);
+  margin: 8px;
+  margin-top: 10px;
+
+}
+
+.achievements .table p {
+  font-size: 100%;
+  padding: 0px;
+}
+.achievements .table p b {
+  font-size: 200%;
+}
+
+#circle1, #circle3 {
+  margin-left: 10px;
+}
+
+.person {
+  width: 100%;
+  float: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+
+}
+.photo {
+  width: 96%;
+  padding: 3%;
+  float: none;
+}
+.person h3{
+  width: 100%;
+  text-align: center;
+}
+
+.person a{
+  margin-left: 20px;
+  width: 100%;
+}
+.vk a{
+  padding: 10px;
+  font-size: 90%;
+}
+
+.vk-icon{
+  width: 20px;
+  margin-right: 8px;
+}
 }

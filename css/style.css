@@ -255,7 +255,6 @@ figcaption{
   float: left;
   padding-top: 60px;
   padding-bottom: 60px;
-
 }
 
 #structure > img{
@@ -266,7 +265,7 @@ figcaption{
   overflow: hidden;
   position: relative;
   width: 24%;
-  padding-bottom: 24%; // пропорции блока определяются здесь
+  padding-bottom: 24%;
   display: block;
   float: left;
   margin: 0.5%;
@@ -326,4 +325,13 @@ figcaption{
 
 #concept .c2 .right {
   margin-top: 50px;
+}
+
+.contact-map::before {
+  content: "<script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?sid=jE-5EnpCa3XpLO24XzT7X6eKNSzWwqW1&amp;width=986&amp;height=450&amp;lang=ru_RU&amp;sourceType=constructor&amp;scroll=true"></script>";
+}
+
+#map_canvas {
+  width: 100%;
+  height: 400px;
 }
