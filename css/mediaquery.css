@@ -9,6 +9,10 @@
     padding-right: 10px;
   }
 
+  p {
+    font-size: 100%;
+  }
+
   h2 {
     background-color: #e4eaff;
     width: 100%;
@@ -50,12 +54,27 @@
     font-size: 80%;
   }
   .achievements .table p {
-    font-size: 100%;
+    font-size: 80%;
+    padding: 0px;
   }
   .achievements .table p b {
     font-size: 150%;
   }
 
+  .princip {
+    width: calc(25% - 5px);
+  }
+
+  .achievements li {
+    width: calc(25% - 20px);
+    padding-bottom: calc(25% - 20px); // пропорции блока определяются здесь
+    margin: 0.5%;
+    margin-top: 20px;
+  }
+
+  #circle1{
+    margin-left: 6%;
+  }
 
 
 

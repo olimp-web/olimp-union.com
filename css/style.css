@@ -142,9 +142,12 @@ section {
 
 .princip {
   float: left;
-  width: 24%;
-  margin: 0.5%;
+  width: 25%;
   height: auto;
+}
+
+figure {
+  margin: 0px;
 }
 
 figcaption{
@@ -152,10 +155,9 @@ figcaption{
   font-family: ALSS, tahoma, sans-serif;
   color:#3913A7;
   font-size: 120%;
+  margin: 0px;
+  padding: 0px;
 }
-
-
-
 
 
 .Max-and-Kirill{
@@ -295,8 +297,8 @@ figcaption{
   display: table-cell;
   vertical-align: middle;
   text-align: center;
-
 }
+
 .achievements .table p b {
   font-size: 250%;
 }
