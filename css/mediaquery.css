@@ -23,7 +23,7 @@
     padding-left: 4px;
     font-size: 10px;
   }
-  
+
   menu ul li:first-child a{
     font-size: 16px;
   }
@@ -125,7 +125,7 @@
 }
 
 /*Удаляем элементы в мобильной версии*/
-menu ul li:nth-child(3) a, menu ul li:nth-child(4) a,menu ul li:nth-child(6) a{
+menu ul li:nth-child(3) a, menu ul li:nth-child(4) a,menu ul li:nth-child(6) a,menu ul li:nth-child(1) a{
   display: inline-block;
   overflow: hidden;
   width: 0px;
