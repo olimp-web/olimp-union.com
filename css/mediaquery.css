@@ -27,7 +27,8 @@
 
   menu ul li:nth-child(7) a {
     margin-right: 4px;
-
+    padding-right: 6px;
+    color: red;
   }
 
 
