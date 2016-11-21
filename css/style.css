@@ -63,6 +63,7 @@ menu li {
   margin: auto;
   display: inline;
   color: red;
+  vertical-align: middle;
 }
 
 a{ /*ссылки в меню*/
