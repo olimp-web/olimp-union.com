@@ -327,11 +327,26 @@ figcaption{
   margin-top: 50px;
 }
 
-.contact-map::before {
-  content: "<script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?sid=jE-5EnpCa3XpLO24XzT7X6eKNSzWwqW1&amp;width=986&amp;height=450&amp;lang=ru_RU&amp;sourceType=constructor&amp;scroll=true"></script>";
-}
+/*///Карта////////////////*/
+    #map {
+        width: calc(100% - 15px);
+        height: 500px;
+        border: 1px solid #aaa;
+        margin: 0;
+        padding: 5px;
+        background-color:#fff;
+        overflow:hidden;
+    }
 
-#map_canvas {
-  width: 100%;
-  height: 400px;
-}
+    #toggler {
+        left: 5px;
+        top: 5px;
+        font-size: 12px;
+    }
+
+    #checkbox_block {
+        left: 163px;
+        top: 8px;
+        font-size: 13px;
+        text-shadow: 1px 1px 0 #FFF;
+    }

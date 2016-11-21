@@ -1,14 +1,32 @@
-function initialize() {
-var latlng = new google.maps.LatLng(59.957132, 30.308143);
-var settings = {
-zoom: 15,
-center: latlng,
-mapTypeControl: true,
-mapTypeControlOptions: {style: google.maps.MapTypeControlStyle.DROPDOWN_MENU},
-navigationControl: true,
-navigationControlOptions: {style: google.maps.NavigationControlStyle.SMALL},
-mapTypeId: google.maps.MapTypeId.ROADMAP
-};
-var map = new google.maps.Map(document.getElementById("map_canvas"),
-settings);
+ymaps.ready(init);
+
+var myMap,
+    bigMap = false;
+
+function init () {
+    myMap = new ymaps.Map('map', {
+        center: [59.957128, 30.308182],
+        zoom: 16
+    }, {
+        // При сложных перестроениях можно выставить автоматическое
+        // обновление карты при изменении размеров контейнера.
+        // При простых изменениях размера контейнера рекомендуется обновлять карту программно.
+        // autoFitToViewport: 'always'
+        searchControlProvider: 'yandex#search'
+    });
+    myMap.geoObjects
+        .add(new ymaps.Placemark([59.957128, 30.308182], {
+            balloonContent: 'Университет ИТМО'
+        }, {
+            preset: 'islands#icon',
+            iconColor: '#0095b6'
+        }))
+        myMap.behaviors.disable('scrollZoom');
+}
+
+
+onresize="apdateMapSize()";
+
+function apdateMapSize() {
+  myMap.container.fitToViewport();
 }

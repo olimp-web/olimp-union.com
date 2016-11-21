@@ -60,7 +60,7 @@
 
 
 .see-full-image::after {
-    content: "Открыть изображение в новом окне";
+    content: "Открыть изображение";
 }
 
 .see-full-image {
@@ -120,5 +120,8 @@
 .vk-icon{
   width: 20px;
   margin-right: 8px;
+}
+#map {
+    height: 200px;
 }
 }
