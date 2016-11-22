@@ -16,16 +16,16 @@
   h2 {
     background-color: #e4eaff;
     width: 100%;
-    margin-top: 40px;
+    padding-top: 5px;
   }
 
   menu a {
     padding-left: 2px;
     padding-right: 2px;
-    font-size: 14px;
+    font-size: 18px;
   }
   menu ul li:first-child a{ /*Первый путкт меню (ОЛИМП)*/
-    font-size: 14px;
+    font-size: 20px;
   }
 
   menu ul li:nth-child(7) a {
@@ -137,17 +137,44 @@
     height: 200px;
 }
 
-/*Удаляем элементы в мобильной версии*/
-menu ul li:nth-child(3) a, menu ul li:nth-child(4) a,menu ul li:nth-child(6) a,menu ul li:nth-child(1) a{
-  display: inline-block;
-  overflow: hidden;
-  width: 0px;
-  height: 0px;
-  margin: 0px;
-  padding: 0px;
-}
-
 .c2 .right-text {
   margin-left: 20px;
+}
+
+/*////////////////////////////////////*/
+
+.nav-mobile {
+  display:block;
+}
+.nav {
+  width:100%;
+  box-shadow: 0 0px 0px;
+  position: fixed;
+  z-index: 11;
+  padding: 0; /* Поля вокруг текста */
+  padding-bottom: 0;
+}
+.nav-list {
+  display:none;
+
+}
+.nav-item {
+  width:100%;
+  float:none;
+
+}
+.nav-item a {
+  display: block;
+  padding:10px;
+  font-style: 120%;
+}
+.nav-active {
+  display:block;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, .3);
+}
+
+
+main {
+    margin-top: 0px;
 }
 }

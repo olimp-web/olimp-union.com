@@ -12,18 +12,21 @@
     <script src="https://api-maps.yandex.ru/2.1/?load=package.full&lang=ru_RU" type="text/javascript"></script>
     <script src="https://yandex.st/jquery/2.2.3/jquery.min.js" type="text/javascript"></script>
     <script src="js/map.js" type="text/javascript"></script>
+
  </head>
  <body>
-   <menu>
-    <ul>
-      <li><a href="#main">ОЛИМП</a></li>
-      <li><a href="#concept">Концепция</a></li>
-      <li><a href="#principles">Принципы</a></li>
-      <li><a href="#structure">Структура</a></li>
-      <li><a href="#opportunity">Возможности</a></li>
-      <li><a href="#achiev">Статистика</a></li>
-      <li><a href="#contacts">Контакты</a></li>
+   <menu class="nav">
+    <ul class="nav-list">
+      <li class="nav-item"><a id="button1" href="#main">ОЛИМП</a></li>
+      <li class="nav-item"><a id="button2" href="#concept">Концепция</a></li>
+      <li class="nav-item"><a id="button3" href="#principles">Принципы</a></li>
+      <li class="nav-item"><a id="button4" href="#structure">Структура</a></li>
+      <li class="nav-item"><a id="button5" href="#opportunity">Возможности</a></li>
+      <li class="nav-item"><a id="button6" href="#achiev">Статистика</a></li>
+      <li class="nav-item"><a id="button7" href="#contacts">Контакты</a></li>
     </ul>
+    <div class="nav-mobile">
+    </div>
   </menu>
   <main id="main">
     <img src="img/head1.png">
@@ -191,5 +194,6 @@
 
   </main>
   <script src="js/smooth-scrolling.js"></script>
+  <script src="js/humburger.js" type="text/javascript"></script>
  </body>
 </html>

@@ -37,34 +37,12 @@ body {
   color: #000000;
  }
 
-menu {
-  z-index: 2;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, .3);
-  padding: 0px;
-  top:0px;
-  position: fixed;
-   width: 100%;
-   background: #ffffff; /* Цвет фона блока */
-   margin: 0; /* Нулевые отступы вокруг текста */
-   padding: 5px; /* Поля вокруг текста */
-   padding-bottom: 7px;
-   text-align: center;
-   font-size: 120%;
- }
-
  ul {
   margin: auto;
   padding: 0px;
   list-style-type: none;
-
  }
 
-menu li {
-  margin: auto;
-  display: inline;
-  color: red;
-  vertical-align: middle;
-}
 
 a{ /*ссылки в меню*/
   vertical-align: middle;
@@ -73,20 +51,10 @@ a{ /*ссылки в меню*/
   color: #3D79AD;
 }
 
-menu a {
-  padding-left: 55px;
-}
-
 a:hover {
   color:#3913A7;
 }
 
-menu ul li:first-child a{ /*Первый путкт меню (ОЛИМП)*/
-  font-family: ALSS, tahoma, sans-serif;
-  color:#3913A7;
-  font-size: 150%;
-  padding-left: 0px;
-}
 
 main {
   position: relative;
@@ -350,4 +318,48 @@ figcaption{
         top: 8px;
         font-size: 13px;
         text-shadow: 1px 1px 0 #FFF;
+    }
+    /*/////////////////////////////*/
+    .nav {
+    	position:fixed;
+    	display:block;
+      z-index: 13;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, .3);
+      top:0px;
+      position: fixed;
+      width: 100%;
+      background: #ffffff; /* Цвет фона блока */
+      margin: 0; /* Нулевые отступы вокруг текста */
+      padding: 5px; /* Поля вокруг текста */
+      padding-bottom: 7px;
+      text-align: center;
+      font-size: 120%;
+    }
+
+    menu ul li:first-child a{ /*Первый путкт меню (ОЛИМП)*/
+      font-family: ALSS, tahoma, sans-serif;
+      color:#3913A7;
+      padding-left: 0px;
+    }
+
+.nav-item {
+  margin: auto;
+  display: inline;
+  vertical-align: middle;
+}
+
+menu a {
+  padding-left: 55px;
+}
+    /* Mobile Navigation */
+    .nav-mobile {
+    	display:none; /* Hide from browsers that don't support media queries */
+    	cursor:pointer;
+    	position:fixed;
+      z-index: 10;
+    	top:0;
+    	left:0;
+    	background:#fff url(../img/nav.png) no-repeat center center;
+    	height:60px;
+    	width:60px;
     }
