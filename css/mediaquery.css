@@ -54,9 +54,11 @@
     margin-bottom: 60px;
   }
 
-  .c1 .c2 .c3 {
+  .c1, .c2, .c3 {
     width: 100%;
+    padding: 0px;
   }
+
   figcaption{
     font-size: 100%;
   }
