@@ -180,4 +180,9 @@
 main {
     margin-top: 0px;
 }
+
+#structure h2, #opportunity h2{
+  margin-bottom: 0px;
+}
+
 }
