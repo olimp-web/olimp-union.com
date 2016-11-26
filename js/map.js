@@ -6,7 +6,8 @@ var myMap,
 function init () {
     myMap = new ymaps.Map('map', {
         center: [59.942443, 30.334161],
-        zoom: 13
+        zoom: 13,
+        controls: ['zoomControl', 'searchControl', 'geolocationControl']
     }, {
         // При сложных перестроениях можно выставить автоматическое
         // обновление карты при изменении размеров контейнера.
