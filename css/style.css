@@ -9,6 +9,9 @@
      font-weight: bold;
    }
 
+p{
+  color: #333;
+}
 
 body {
     margin: 0; /* Убираем отступы */
@@ -29,18 +32,33 @@ body {
    width: 200px;
    margin: auto;
    margin-top: 60px;
+   margin-bottom: 60px;
+ }
+
+ #concept h2 {
+   margin-bottom: 0px;
  }
 
  p {
-  text-align: justify;
   font-size: 120%;
-  color: #000000;
+  text-align: justify;
+ }
+
+ ul p {
+  text-align: left;
+ }
+
+ .description {
+   text-indent: 20px; /* Отступ первой строки в пикселах */
  }
 
  ul {
   margin: auto;
   padding: 0px;
   list-style-type: none;
+ }
+ ul li p {
+   text-indent: 0px; /* Отступ первой строки в пикселах */
  }
 
 
@@ -115,8 +133,11 @@ section {
   height: auto;
 }
 
+
+
 figure {
   margin: 0px;
+  margin-bottom: 40px;
 }
 
 figcaption{
@@ -238,7 +259,17 @@ figcaption{
   display: block;
   float: left;
   margin: 0.5%;
-  margin-top: 50px;
+}
+
+#achiev > p {
+  font-family: ALSS, tahoma, sans-serif;
+  color:#3913A7;
+  text-align: center;
+  font-size: 150%;
+}
+
+#achiev h2 {
+  margin-bottom: 0px;
 }
 
 .circle{
@@ -324,14 +355,14 @@ figcaption{
     	position:fixed;
     	display:block;
       z-index: 13;
-      box-shadow: 0 2px 6px rgba(0, 0, 0, .3);
+      box-shadow: 0 3px 10px rgba(10, 15, 70, .4);
       top:0px;
-      position: fixed;
       width: 100%;
       background: #ffffff; /* Цвет фона блока */
       margin: 0; /* Нулевые отступы вокруг текста */
       padding: 5px; /* Поля вокруг текста */
-      padding-bottom: 7px;
+      padding-bottom: 15px;
+      padding-top: 10px;
       text-align: center;
       font-size: 120%;
     }
