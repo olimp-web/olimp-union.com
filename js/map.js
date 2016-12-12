@@ -15,6 +15,8 @@ function init () {
         // autoFitToViewport: 'always'
         searchControlProvider: 'yandex#search'
     });
+    if (window.innerWidth < 650)
+      myMap.setZoom(11);
     myMap.geoObjects
         .add(new ymaps.Placemark([59.957128, 30.308182], {
             hintContent: 'Университет ИТМО. Главный корпус',
@@ -55,9 +57,19 @@ function init () {
         myMap.behaviors.disable('scrollZoom');
 }
 
-
-onresize="apdateMapSize()";
-
+//window.onresize="apdateMapSize()";
+/*
 function apdateMapSize() {
+  alert('window.innerWidth');
   myMap.container.fitToViewport();
+
+  if (window.innerWidth < 1000)
+    myMap.setZoom(2);
+}*/
+
+window.onresize = function resize() {
+  if (window.innerWidth < 650)
+    myMap.setZoom(11);
+  else
+      myMap.setZoom(13);
 }
