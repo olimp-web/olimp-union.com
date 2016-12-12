@@ -22,7 +22,7 @@ function init () {
         }, {
             iconLayout: 'default#image',
             iconImageHref: 'img/metka1.png',
-            iconImageSize: [30, 30],
+            iconImageSize: [40, 40],
             iconImageOffset: [-10, -10]
         }))
         .add(new ymaps.Placemark([59.929276, 30.315396], {
@@ -30,16 +30,16 @@ function init () {
             balloonContent: 'Университет ИТМО<br />Гривцова 14'
         }, {
             iconLayout: 'default#image',
-            iconImageHref: 'img/metka4.png',
+            iconImageHref: 'img/metka2.png',
             iconImageSize: [30, 30],
             iconImageOffset: [-10, -10]
         }))
         .add(new ymaps.Placemark([59.939728, 30.349857], {
-            hintContent: 'МИР Интерактивных Разработок',
-            balloonContent: 'МИР Интерактивных Разработок<br />Короленко 4'
+            hintContent: 'МИР Интерактивного Развития',
+            balloonContent: 'МИР Интерактивного Развития<br />Короленко 4'
         }, {
             iconLayout: 'default#image',
-            iconImageHref: 'img/metka4.png',
+            iconImageHref: 'img/metka3.png',
             iconImageSize: [30, 30],
             iconImageOffset: [-10, -10]
         }))

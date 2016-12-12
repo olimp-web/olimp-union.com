@@ -81,11 +81,9 @@
 }
 /*Статистика////////////////////////////////////*/
 .achievements li {
-  width: calc(45% - 15px);
-  padding-bottom: calc(45% - 15px);
-  margin: 8px;
-  margin-top: 10px;
-
+  width: 48%;
+  padding-bottom: 48%;
+  margin: 10px 1%;
 }
 
 .achievements .table p {
@@ -96,18 +94,14 @@
   font-size: 200%;
 }
 
-#circle1, #circle3 {
-  margin-left: 10px;
-}
-
 .person {
   width: 100%;
   float: none;
   padding-top: 10px;
   padding-bottom: 10px;
   text-align: center;
-
 }
+
 .photo {
   width: 96%;
   padding: 3%;
