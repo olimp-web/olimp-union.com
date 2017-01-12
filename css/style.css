@@ -404,3 +404,8 @@ menu a {
   .mapDescription{
     vertical-align: middle;
   }
+
+  .tasks-img{
+    position: relative;
+    top: 100px;
+  }
