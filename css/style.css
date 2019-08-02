@@ -73,6 +73,28 @@ a:hover {
   color:#3913A7;
 }
 
+.top-slider__wrapper{
+  /*width: 1000%;*/
+  /*max-width: 1356px;*/
+  margin: 45px 0 auto;
+}
+
+.top-slider__item{
+  width: 1100px;
+}
+
+.top-slider .slick-dots{
+  bottom: 25px;
+}
+
+.top-slider .slick-dots li button:before{
+  color: #ddd;
+  font-size: 9px;
+}
+
+.top-slider .slick-dots li.slick-active button:before{
+  color: #fff;
+}
 
 main {
   position: relative;

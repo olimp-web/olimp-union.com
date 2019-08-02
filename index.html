@@ -4,10 +4,15 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width">
   <title>Лаборатория ОЛИМП</title>
+
+  <!-- STYLES -->
+  <!-- slider https://kenwheeler.github.io/slick/ -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/mediaquery.css">
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
-      rel="stylesheet">
+  
     <script async type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
     <script src="https://api-maps.yandex.ru/2.1/?load=package.full&lang=ru_RU" type="text/javascript"></script>
     <!--<script async src="https://yandex.st/jquery/2.2.3/jquery.min.js" type="text/javascript"></script>-->
@@ -28,8 +33,23 @@
     <div class="nav-mobile">
     </div>
   </menu>
+  <section class="top-slider__wrapper">
+    <div id="top-slider" class="top-slider">
+      <img src="img/top-slider/hatolimp5 1366x550.jpg" alt="Начало нового сезона в мастерской" class="top-slider__item">
+      <img src="img/top-slider/hatolimp1 1366x550.jpg" alt="Кишки 3d-принтера" class="top-slider__item">
+      <img src="img/top-slider/hatolimp3 1366x550.jpg" alt="Участники лаборатории на фестивале" class="top-slider__item">
+      <img src="img/top-slider/hatolimp4 1366x550.jpg" alt="Оптический лабиринт" class="top-slider__item">
+      <img src="img/top-slider/hatolimp12 1366x550.jpg" alt="Участники лаборатории на выставке" class="top-slider__item">
+      <img src="img/top-slider/hatolimp13 1366x550.jpg" alt="'Первый мастер'" class="top-slider__item">
+      <img src="img/top-slider/hatolimp14 1366x550.jpg" alt="Это Никита" class="top-slider__item">
+      <img src="img/top-slider/hatolimp15 1366x550.jpg" alt="Рабочая атмосфера в лаборатории" class="top-slider__item">
+      <img src="img/top-slider/hatolimp17 1366x550.jpg" alt="Общее групповое фото после фестиваля" class="top-slider__item">
+      <img src="img/top-slider/hatolimp18 1366x550.jpg" alt="Алена и Кирилл" class="top-slider__item">
+      <img src="img/top-slider/hatolimp20 1366x550.jpg" alt="Надпись OLIMP, выведенная на самодельном мониторе" class="top-slider__item">
+      <img src="img/top-slider/hatolimp23 1366x550.jpg" alt="Работа Кирилла: Вид сверху" class="top-slider__item">
+    </div>
+  </section>
   <main id="main">
-    <img src="img/hatolimp5_2.jpg">
     <h1 >Открытая Лаборатория Идей Методик и Практик</h1>
     <p class="description">ОЛИМП - это объединение энтузиастов разных направлений деятельности, 
 от робототехники и программирования до урбанистики, шитья и пения.
@@ -209,8 +229,11 @@
 
   </main>
   <img src="img/vawes.png" />
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+  <script src="js/main-slider.js"></script>
   <script src="js/smooth-scrolling.js"></script>
   <script src="js/humburger.js" type="text/javascript"></script>
+  
   <script>
     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
