@@ -36,21 +36,12 @@ function init () {
             iconImageSize: [30, 30],
             iconImageOffset: [-10, -10]
         }))
-        .add(new ymaps.Placemark([59.939728, 30.349857], {
+        .add(new ymaps.Placemark([59.943012, 30.358035], {
             hintContent: 'МИР Интерактивного Развития',
-            balloonContent: 'МИР Интерактивного Развития<br />Короленко 4'
+            balloonContent: 'МИР Интерактивного Развития<br />Манежный пер., 13 - Детский коворкинг "Дом Гнома"'
         }, {
             iconLayout: 'default#image',
             iconImageHref: 'img/metka3.png',
-            iconImageSize: [30, 30],
-            iconImageOffset: [-10, -10]
-        }))
-        .add(new ymaps.Placemark([59.926837, 30.337894], {
-            hintContent: 'Университет ИТМО',
-            balloonContent: 'Университет ИТМО<br />Ломоносова 9'
-        }, {
-            iconLayout: 'default#image',
-            iconImageHref: 'img/metka4.png',
             iconImageSize: [30, 30],
             iconImageOffset: [-10, -10]
         }))
