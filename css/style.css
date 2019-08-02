@@ -210,7 +210,10 @@ figcaption{
 .social-links{
   display: flex;
   justify-content: space-around;
+<<<<<<< HEAD
   flex-wrap: wrap;
+=======
+>>>>>>> e33c254ae9abade3dac793276594994d6b7d5a6d
 }
 
 .social-link{
@@ -247,6 +250,7 @@ figcaption{
   background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
 }
 
+<<<<<<< HEAD
 @media screen and (max-width: 650px){
   .social-link{
     font-size: 16px;
@@ -261,6 +265,8 @@ figcaption{
   }
 }
 
+=======
+>>>>>>> e33c254ae9abade3dac793276594994d6b7d5a6d
 .h-dots-decoration:before, .h-dots-decoration:after{
   content: "";
   display: inline-block;
@@ -269,6 +275,7 @@ figcaption{
   margin: 0 30px;
   position: relative;
   background-image: url(../img/separate10.png);
+<<<<<<< HEAD
 }
 
 @media screen and (max-width: 650px){
@@ -277,6 +284,16 @@ figcaption{
   }
 }
 
+=======
+}
+
+@media screen and (max-width: 650px){
+  .h-dots-decoration:before, .h-dots-decoration:after{
+    display: none;
+  }
+}
+
+>>>>>>> e33c254ae9abade3dac793276594994d6b7d5a6d
 @media screen and (max-width: 900px){
    .h-dots-decoration:before, .h-dots-decoration:after{
     width: 195px;
