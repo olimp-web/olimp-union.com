@@ -58,11 +58,7 @@
 Участники мастерских - энтузиасты вне зависимости от пола, возраста и принадлежности
  к профессии.</p>
     <section id="concept">
-      <div class="decoration">
-        <div class="separate-left"></div>
-        <div class="separate-right"></div>
-      </div>
-      <h2>Концепция</h2>
+      <h2 class="h-dots-decoration">Концепция</h2>
       <section class="c1">
         <div class="right">
          <img src="img/mission.jpg">
@@ -104,11 +100,7 @@
       </section>
     </section>
     <section id="principles">
-      <div class="decoration">
-        <div class="separate-left"></div>
-        <div class="separate-right"></div>
-      </div>
-      <h2>Принципы</h2>
+      <h2 class="h-dots-decoration">Принципы</h2>
       <figure class="princip">
         <img src="img/principles/1.jpg" alt="Кооперация">
         <figcaption>Кооперация</figcaption>
@@ -127,29 +119,17 @@
       </figure>
     </section>
     <section id="structure">
-      <div class="decoration">
-        <div class="separate-left"></div>
-        <div class="separate-right"></div>
-      </div>
-      <h2>Структура</h2>
+      <h2 class="h-dots-decoration">Структура</h2>
       <img src="img/structure.png"/>
       <a href="img/structure.png" target="_blank" class="see-full-image"></a>
     </section>
     <section id="opportunity">
-      <div class="decoration">
-        <div class="separate-left"></div>
-        <div class="separate-right"></div>
-      </div>
-      <h2>Возможности</h2>
+      <h2 class="h-dots-decoration">Возможности</h2>
       <img src="img/map.png"/>
       <a href="img/map.png" target="_blank" class="see-full-image"></a>
     </section>
     <section id="achiev">
-      <div class="decoration">
-        <div class="separate-left"></div>
-        <div class="separate-right"></div>
-      </div>
-      <h2>Статистика</h2>
+      <h2 class="h-dots-decoration">Статистика</h2>
       <p>Более:</p>
       <ul class="achievements">
         <li id="circle1">
@@ -183,12 +163,13 @@
       </ul>
     </section>
     <section id="contacts">
-      <div class="decoration">
+      <!-- <div class="decoration">
         <div class="separate-left"></div>
         <div class="separate-right"></div>
-      </div>
-      <h2>Контакты</h2>
-        <section class="person">
+      </div> -->
+      <h2 class="h-dots-decoration">Контакты</h2>
+      <section class="persons">
+        <div class="person">
           <img class="photo" src="img/kirill.jpg" />
           <h3>Кирилл Бодров</h3>
           <ul>
@@ -196,9 +177,8 @@
             <li><a class="icon-text" target="_blank" href="mailto:kbodrov5@gmail.com" ><img src="img/mail.png" alt="icon" class="icon"/>kbodrov5@gmail.com</a></li>
             <li><a class="icon-text" target="_blank" href="tel:+79117555436" ><img src="img/phone.png" alt="icon" class="icon"/>+7 (911) 755-54-36</a></li>
           </ul>
-
-        </section>
-        <section class="person">
+        </div>
+        <div class="person">
           <img class="photo" src="img/nad.jpg" />
           <h3>Надежда Толстоба</h3>
           <ul>
@@ -210,23 +190,36 @@
               <a class="icon-text" target="_blank" href="tel:+79112805999" ><img src="img/phone.png" alt="icon" class="icon"/>+7 (911) 280-59-99</a>
             </li>
           </ul>
-        </section>
+        </div>
+      </section>
+        
+        <!-- <p class="icon-text mapDescription"><i class="material-icons">location_on</i>Объединение ОЛИМП расположено на 4 площадках: <br /><br /> -->
+      <h3>Адреса площадок</h3>
+      <ul class="address_list">
+        <li>
+          <img class="metka" src="img/metka1.png"/> 
+          Главный офис: Кронверкский пр. 49, Университет ИТМО (ауд. 501, 511, 512)
+        </li>
+        <li>
+          <img class="metka" src="img/metka2.png"/> 
+          Студенческая Научная Лаборатория Оптотехники (СНЛО): ул. Гривцова 14
+        </li>
+        <li>
+          <img class="metka" src="img/metka3.png"/> 
+          Мир Интерактивного Развития (<a href="mir-space.ru">МИР</a>): Манежный пер., 13 
+        </li>
+      </ul>
 
-
-        <p class="icon-text mapDescription"><i class="material-icons">location_on</i>Объединение ОЛИМП расположено на 4 площадках: <br /><br />
-                          <img class="metka" src="img/metka1.png"/> Главный офис: Кронверкский пр. 49, Университет ИТМО (ауд. 501, 511, 512) <br />
-                          <img class="metka" src="img/metka3.png"/> Мир Интерактивного Развития (МИР): ул. Короленко 4 <br />
-                          <img class="metka" src="img/metka2.png"/> Студенческая Научная Лаборатория Оптотехники (СНЛО): ул. Гривцова 14 <br />
-                          <img class="metka" src="img/metka4.png"/> Биотехнологии: ул. Ломоносова 9
-        </p>
         <div id="map"></div>
-    </section>
-    <div class="vk">
-      <div class="table-cell">
-        <a href="https://vk.com/olimp_union" target="_blank"><img src="img/vk.jpg" alt="vk icon" class="vk-icon"/> Присоединяйся #olimp_union</a>
-      </div>
+    <div class="social-links">
+      <a class="social-link social-link--vk" href="https://vk.com/olimp_union" target="_blank">
+        <img src="img/vk.jpg" alt="vk icon" class="social-link__icon"/> Присоединяйся #olimp_union
+      </a>
+      <a class="social-link social-link--instagram" href="https://www.instagram.com/olimp_union/" target="_blank">
+        <img src="img/inst-w-300x300.png" alt="instagram icon" class="social-link__icon"> Подписывайся @olimp_union
+      </a>
     </div>
-
+    </section>
   </main>
   <img src="img/vawes.png" />
   <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
